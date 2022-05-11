@@ -32,15 +32,17 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
-.parson{
+
+.parson {
   background: rgb(221, 223, 98);
   color: red;
   border: 2px solid;
   margin: 20px;
   padding: 10px;
-  
+
 }
