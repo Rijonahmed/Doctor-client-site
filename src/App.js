@@ -11,7 +11,7 @@ import Navber from './Pages/Shared/Navber/Navber';
 
 function App() {
   return (
-    <div>
+    <div className='mx-12'>
       <Navber></Navber>
       <Routes>
 

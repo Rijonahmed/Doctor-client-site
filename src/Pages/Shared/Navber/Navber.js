@@ -5,6 +5,7 @@ const Navber = () => {
   const menuItem = <>
     <li><Link to='/home'>Home</Link></li>
     <li><Link to='/about'>About</Link></li>
+    <li><Link to='/appointment'>Appointment</Link></li>
     <li><Link to='/reviews'>Reviews</Link></li>
     <li><Link to='/contactus'>Contact Us</Link></li>
     <li><Link to='/login'>Log In</Link></li>
@@ -24,7 +25,7 @@ const Navber = () => {
 
             </ul>
           </div>
-          <a class="btn btn-ghost normal-case text-xl"><Link to='/'>Doctor</Link> </a>
+          <a className="btn btn-ghost normal-case text-xl"><Link to='/'>Doctor</Link> </a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal p-0">
